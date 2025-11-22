@@ -93,7 +93,7 @@ const Goals = () => {
     }
   };
 
-  if (loading) return <MainLayout><div className="p-10 text-center">Loading Goals...</div></MainLayout>;
+  if (loading) return <Mainlayout><div className="p-10 text-center">Loading Goals...</div></Mainlayout>;
 
   return (
     <Mainlayout>
